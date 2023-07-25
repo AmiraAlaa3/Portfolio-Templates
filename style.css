@@ -15,18 +15,6 @@
     }
 }
 
-@keyframes frist-background {
-    0% {
-        transform: translateX(50%);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
 :root {
     --main-color: #ffffff;
     --bg-main: #0b0b0b;
@@ -417,10 +405,6 @@ input[type="checkbox"] {
 
 }
 
-.home .image img {
-    animation: frist-background .8s 1 ease-in-out;
-    -webkit-animation: frist-background .8s 1 ease-in-out;
-}
 
 .home .image::after {
     content: "";
